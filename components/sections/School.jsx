@@ -14,7 +14,7 @@ export default function School(){
             <div className="bg-primary-purple text-dark-blue xl:w-712  xl:absolute xl:right-0 p-5 xl:p-10 flex flex-col gap-5">
                 <h1 className="font-bold text-2.3xl">Schools and Research Centers</h1>
                 <p className="text-16">They form the academic foundation of TUM: Our schools and departments, connected at disciplinary interfaces by integrative research institutes to create an organization that drives innovation.</p>
-           <Button text="Organisation" styles="uppercase mt-3 font-bold bg-primary-blue text-white w-[130.44px] grid place-content-center h-[58px]" />
+           <Button text="Organisation" styles="uppercase mt-3 font-bold bg-primary-blue text-white w-[157.82px] grid place-content-center h-[58px] px-[20px] py-[16px]" />
             </div>
         </section>
         </>

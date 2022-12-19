@@ -36,6 +36,9 @@ module.exports = {
       height:{
         "479.2" : "479.2px"
       },
+      fontFamily: {
+        roboto: 'Roboto, sans-serif',
+      },
     
     },
   },

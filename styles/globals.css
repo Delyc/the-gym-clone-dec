@@ -5,7 +5,7 @@
 
 
 .home{
-  background-image: url('../public/assets/images/news1.webp');
+  background-image: url('../public/assets/images/back.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -13,3 +13,13 @@
 .grad{
   background-image: linear-gradient(to left, rgb(37, 85, 141) 0%, #0A2D57 70%)
 }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700%27');
+  font-weight: 500;
+}
+
+body{
+  @apply font-roboto
+  }
