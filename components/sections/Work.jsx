@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Details from "../cards/details";
+import Details from "../cards/Details";
 import Offer from '../../public/assets/images/offer.png'
 const Work = () => {
   return (
