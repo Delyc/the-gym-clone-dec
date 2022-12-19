@@ -27,9 +27,9 @@ export default function News(){
 
         <section className="grid grid-cols-4 w-full  mt-[51px]">
             <div className="cols-span-2 "></div>
-{news.map((elt) => {
+{news.map((elt, index) => {
             return(
-                <Card styles="ml-32"  description={elt.description} image={elt.image} tag={elt.tag} datePosted={elt.datePosted} readingTime={elt.readingTime} smallHeading={elt.smallHeading} bigHeading={elt.bigheading}/>
+                <Card key={index} styles="ml-32"  description={elt.description} image={elt.image} tag={elt.tag} datePosted={elt.datePosted} readingTime={elt.readingTime} smallHeading={elt.smallHeading} bigHeading={elt.bigheading}/>
             )
         })}
         </section>
