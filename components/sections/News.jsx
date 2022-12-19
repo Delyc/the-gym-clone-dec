@@ -5,7 +5,7 @@ export default function News(){
     return(
         <>
      
-        <section className="grid grid-cols-4 mx-auto max-w-[90rem] mt-12">
+        <section className="grid grid-cols-1 bg-red-500 xl:grid xl:grid-cols-4 xl:mx-auto xl:max-w-[90rem] xl:mt-12">
             <div className=" col-span-2 flex flex-col gap-6">
             <h1 className="font-bold text-[32px] text-dark-blue">News from TUM</h1>
         <p className=" text-xl text-dark-blue">News, research results and events: everything that enthuses people at our university.</p>
@@ -25,7 +25,7 @@ export default function News(){
 
         </section>
 
-        <section className="grid grid-cols-4 w-full  mt-[51px]">
+        <section className="grid grid-cols-4 w-full  mt-[51px]  mx-auto max-w-[90rem]">
             <div className="cols-span-2 "></div>
 {news.map((elt, index) => {
             return(

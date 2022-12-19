@@ -4,7 +4,7 @@ import Button from "../ui/Button"
 export default function Drives(){
     return(
         <>
-        <section className="flex items-center py-44 relative mx-auto max-w-[90rem]">
+        <section className="flex items-center mt-[96px] relative mx-auto max-w-[90rem]">
             <div className="w-784 h-479.2">
                 <Image src={drives} alt="drives" className="w-full h-full"  />
 

@@ -12,7 +12,9 @@ module.exports = {
         "primary-gray" : "#E8ECEF",
         "primary-purple" : "#8F81EA",
         "whitish-purple" : "#EFEDFC",
-        "dark-orange" : "#EA7237"
+        "dark-orange" : "#EA7237",
+        "primary-yellow" : "#F7B11E",
+        "secondary-purple" : "#B55CA5"
       },
       fontSize:{
         "13.3333" : "13.3333px",
@@ -33,7 +35,8 @@ module.exports = {
       },
       height:{
         "479.2" : "479.2px"
-      }
+      },
+    
     },
   },
   plugins: [],

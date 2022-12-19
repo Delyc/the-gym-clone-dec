@@ -4,7 +4,7 @@ import Button from "../ui/Button"
 export default function Alumni(){
     return(
         <>
-         <section className="flex flex-row-reverse  items-center py-44 relative mx-auto max-w-[90rem]">
+         <section className="flex flex-row-reverse  items-center mt-[96px] relative mx-auto max-w-[90rem]">
             <div className="w-784 h-479.2">
                 <Image src={building} alt="drives" className="w-full h-full"  />
 

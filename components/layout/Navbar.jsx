@@ -4,7 +4,8 @@ import Search from "../../public/assets/svgs/Search";
 
 export default function Navbar() {
     return (
-        <nav className="bg-dark-blue py-5 px-6 w-full flex items-center justify-between ">
+        <header className="fixed z-50 bg-dark-blue w-full">
+        <nav className="  mx-auto max-w-[90rem] py-5 px-6 w-full flex items-center justify-between ">
             <div className="flex items-center gap-4">
                 <svg className="text-white" width="33" height="33" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                     <path d="m14.5 18.717-2.5 2.88-2.5-2.88h5zM8.5 13v3h-3v-3h3zm5 0v3h-3v-3h3zm5 0v3h-3v-3h3zm-10-5v3h-3V8h3zm5 0v3h-3V8h3zm5 0v3h-3V8h3zm-10-5v3h-3V3h3zm5 0v3h-3V3h3zm5 0v3h-3V3h3z" fill="currentColor" fill-rule="nonzero"></path>
@@ -42,5 +43,6 @@ export default function Navbar() {
             </div>
 
         </nav>
+        </header>
     )
 }

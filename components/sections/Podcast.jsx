@@ -3,7 +3,7 @@ import PodcastCard from "../cards/PodcastCard";
 export default function Podcast(){
     return(
         <>
-        <section className="mx-auto max-w-[90rem] grid grid-cols-3 gap-x-[144px] gap-y-[48px]">
+        <section className="mx-auto max-w-[90rem] grid grid-cols-3 gap-x-[144px] gap-y-[48px] mt-[96px]">
             {podcast.map((elt, index) => {
                 console.log("elt", elt.id)
                 return(

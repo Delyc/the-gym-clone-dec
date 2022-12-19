@@ -12,6 +12,8 @@ import Alumni from '../components/sections/Alumni'
 import Podcast from '../components/sections/Podcast'
 import Support from '../components/sections/Support'
 import Footer from '../components/layout/Footer'
+import Program from '../components/sections/Program'
+import Work from '../components/sections/Work'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -19,16 +21,18 @@ export default function Home() {
     <>
     
       <secton>
-        <Navbar />
-      <HomePage />
+        {/* <Navbar />
+      <HomePage /> */}
       <News />
+      {/* <Work />
+      <Program />
       <Drives />
       <Tum />
       <School />
       <Alumni />
       <Podcast />
       <Support />
-      <Footer />
+      <Footer /> */}
       </secton>
     </>
   )
