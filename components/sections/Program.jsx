@@ -10,7 +10,7 @@ export default function Program(){
         <section className="px-6 xl:mx-auto xl:max-w-[90rem] mt-[68px]">
 
         <div className='relative'>
-            <div onClick={()=>setOpen(!open)} className='hidden md:block flex justify-between bg-primary-gray border-b border-dark-blue items-center'>
+            <div onClick={()=>setOpen(!open)} className='hidden md:block xl:flex xl:flex-row justify-between bg-primary-gray border-b border-dark-blue items-center'>
         <input onClick={()=>setOpen(!open)} placeholder="Search degree program or enter keyword " className="p-[20px] relative bg-primary-gray text-[1.5rem] font-bold outline-none " />
 
                 <Image src={arrow} alt="allot" width={16} height={6} className="w-8 h-8 hidden md:block"/>
