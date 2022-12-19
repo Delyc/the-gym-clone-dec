@@ -1,5 +1,5 @@
 import { podcast } from "../../data/podcast";
-import PodcastCard from "../cards/podcastCard";
+import PodcastCard from "../cards/PodcastCard";
 export default function Podcast(){
     return(
         <>
