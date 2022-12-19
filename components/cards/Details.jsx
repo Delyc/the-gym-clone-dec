@@ -9,7 +9,7 @@ const Details = ({ imageSrc, title, content, buttonText }) => {
       ) : null}
       <h4 className="text-4xl  text-dark-blue my-10 font-bold">{title}</h4>
       <p className="text-[20px] mb-10">{content}</p>
-      <Button text={buttonText} styles="border border-primary-blue text-primary-blue font-bold px-[20px] py-[16px]" />
+      <Button text={buttonText} styles="border  border-primary-blue text-primary-blue font-bold px-[20px] py-[16px] hover:bg-white hover:text-[#14519A]" />
     </div>
   );
 };
