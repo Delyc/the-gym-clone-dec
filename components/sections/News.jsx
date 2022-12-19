@@ -14,9 +14,9 @@ export default function News(){
         
 
     
-        {news.map((elt) => {
+        {news.map((elt, index) => {
             return(
-                <Card  description={elt.description} image={elt.image} tag={elt.tag} datePosted={elt.datePosted} readingTime={elt.readingTime} smallHeading={elt.smallHeading} bigHeading={elt.bigheading}/>
+                <Card key={index}  description={elt.description} image={elt.image} tag={elt.tag} datePosted={elt.datePosted} readingTime={elt.readingTime} smallHeading={elt.smallHeading} bigHeading={elt.bigheading}/>
             )
         })}
 

@@ -28,25 +28,25 @@ export default function Footer(){
                 </div>
             </div>
             <div>
-                <p className="font-bold ">Let's shape the future together</p>
+                <p className="font-bold ">Let{"'"}s shape the future together</p>
                 <p>Support us </p>
             </div>
 
             <div className="flex flex-col gap-3">
                 <p className="font-bold">Latest news</p>
-                <p className="flex gap-3 items-center"><Image src={arrow} className="w-3 mb-1 h-5" />Germany's strongest university in business sciences</p>
-                <p className="flex gap-3 items-center"><Image src={arrow} className="w-3 mb-1 h-5" />TUM partners with Nobel Sustainability Trust</p>
-                <p className="flex gap-3 items-center"><Image src={arrow} className="w-3 mb-1 h-5" />Antihelium nuclei as messengers from the depths of the galaxy</p>
+                <p className="flex gap-3 items-center"><Image src={arrow} className="w-3 mb-1 h-5" alt="arrow" />Germany{"'"}s strongest university in business sciences</p>
+                <p className="flex gap-3 items-center"><Image src={arrow} className="w-3 mb-1 h-5" alt="arrow"/>TUM partners with Nobel Sustainability Trust</p>
+                <p className="flex gap-3 items-center"><Image src={arrow} className="w-3 mb-1 h-5" alt="arrow"/>Antihelium nuclei as messengers from the depths of the galaxy</p>
             </div>
             </div>
             <div className="py-[27px]">
             <div className="mx-auto max-w-[90rem] text-white flex r gap-10 ">
             <h1 className="font-bold">Schools and <br /> Departments:</h1>
             <div className="flex w-full flex-wrap gap-4">
-            {departments.map((dpt) => {
+            {departments.map((dpt, index) => {
                
                 return(
-                <p className="flex gap-1 items-end">{dpt.departmentName} <Image src={go} className="w-4 h-4" /></p>
+                <p key={index} className="flex gap-1 items-end">{dpt.departmentName} <Image src={go} className="w-4 h-4" alt="Open"/></p>
 
                 )
               
@@ -56,10 +56,10 @@ export default function Footer(){
         <div className="mx-auto max-w-[90rem] text-white flex r gap-16 mt-[26px]">
             <h1 className="font-bold">Quicklinks:</h1>
             <div className="flex w-full flex-wrap gap-4">
-            {quickLinks.map((links) => {
+            {quickLinks.map((links, index) => {
                
                 return(
-                <p className="flex gap-1 items-end">{links.link} <Image src={go} className="w-4 h-4" /></p>
+                <p key={index} className="flex gap-1 items-end">{links.link} <Image src={go} alt="Open" className="w-4 h-4" /></p>
 
                 )
               
