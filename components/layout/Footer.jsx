@@ -95,7 +95,7 @@ export default function Footer(){
                 </div>
 
                 <div className="flex gap-8 pt-[27px]">
-                    <Image src={logo2} alr="logo" width={32} height={59.51} />
+                    <Image src={logo2} alt="logo" width={32} height={59.51} />
                     <div className="flex flex-col gap-4">
                         <p>TUM Partners of Excellence</p>
                         <p>Airbus · Altana · Audi · Bayerischer Bauindustrieverband · BMW · Bosch · Busch Vacuum · Clariant · Dräxlmaier · Evonik Industries · Google · Herrenknecht · HUAWEI · Infineon · Linde · MAN · Nestlé · Rohde & Schwarz · RWE · SAP · SGL Carbon · Siemens · TRUMPF · TÜV-Süd · Vereinigung der Bayerischen Wirtschaft · Volkswagen · Wacker Chemie</p>
