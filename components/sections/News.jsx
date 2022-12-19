@@ -10,7 +10,7 @@ export default function News() {
                 <div className=" xl:col-span-2 flex flex-col gap-6">
                     <h1 className="font-bold text-[32px] text-dark-blue mt-10 xl:mt-0">News from TUM</h1>
                     <p className=" text-xl text-dark-blue">News, research results and events: everything that enthuses people at our university.</p>
-                    <Button styles="text-white w-[101.33px] font-bold bg-primary-blue uppercase py-4 px-5" text="see all" />
+                    <Button styles="text-white w-[101.33px] font-bold bg-primary-blue uppercase py-4 " text="see all" />
                 </div>
 
 
