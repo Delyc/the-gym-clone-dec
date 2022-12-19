@@ -4,8 +4,9 @@ import Search from "../../public/assets/svgs/Search";
 
 export default function Navbar() {
     return (
+        <section>
         <header className="fixed z-50 bg-dark-blue w-full">
-        <nav className="  mx-auto max-w-[90rem] py-5 px-6 w-full flex items-center justify-between ">
+        <nav className="  xl:mx-auto xl:max-w-[90rem] py-5 px-6 w-full flex flex-col xl:flex xl:flex-row xl:items-center gap-5 xl:gap-0 justify-between ">
             <div className="flex items-center gap-4">
                 <svg className="text-white" width="33" height="33" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                     <path d="m14.5 18.717-2.5 2.88-2.5-2.88h5zM8.5 13v3h-3v-3h3zm5 0v3h-3v-3h3zm5 0v3h-3v-3h3zm-10-5v3h-3V8h3zm5 0v3h-3V8h3zm5 0v3h-3V8h3zm-10-5v3h-3V3h3zm5 0v3h-3V3h3zm5 0v3h-3V3h3z" fill="currentColor" fill-rule="nonzero"></path>
@@ -15,10 +16,10 @@ export default function Navbar() {
                 </svg>
                 {/* <Home />
                 <Logo /> */}
-                <span className="text-white text-xs leading-[1.1666666667] font-normal">Technical <br /> University <br /> of Munich</span>
+                <span className="text-white hidden md:block text-xs leading-[1.1666666667] font-normal">Technical <br /> University <br /> of Munich</span>
             </div>
 <div className="flex gap-20 justify-bentween">
-            <ul className="flex text-sm font-bold text-white font-bold uppercase gap-5">
+            <ul className="hidden md:block xl:flex xl:flex-row text-sm font-bold text-white font-bold uppercase gap-5">
                 <li>news and events</li>
                 <li>studies</li>
                 <li>lifelong learning</li>
@@ -43,6 +44,13 @@ export default function Navbar() {
             </div>
 
         </nav>
+      
+
         </header>
+        <div className=" w-full md:hidden grad text-white font-bold px-6 flex flex-col gap-6 py-24 ">
+            <h1 className="text-[36px] mt-24">TUM. The Entrepreneurial Univeristy</h1>
+          <p className="text-[20px]">Innovation throught talent excellence and responsibility</p>
+        </div>
+        </section>
     )
 }

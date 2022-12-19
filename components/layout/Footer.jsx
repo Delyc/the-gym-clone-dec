@@ -16,7 +16,7 @@ export default function Footer(){
         <>
         <footer className=" ">
         <section className="bg-[#0A2D57] text-white ">
-            <div className="mx-auto max-w-[90rem] flex justify-between  py-[56px]  border-b border-[#9ABCE4]">
+            <div className="px-6 xl:px-0 xl:mx-auto xl:max-w-[90rem] flex flex-col xl:flex xl:flex-row xl:justify-between  py-[56px]  border-b border-[#9ABCE4]">
             <div className="flex gap-5">
                 <Logo />
                 <div className="flex flex-col gap-5">
@@ -40,7 +40,7 @@ export default function Footer(){
             </div>
             </div>
             <div className="py-[27px]">
-            <div className="mx-auto max-w-[90rem] text-white flex r gap-10 ">
+            <div className="px-6 xl:px-0 xl:mx-auto xl:max-w-[90rem] flex flex-col text-white xl:flex xl:flex-row r gap-4 xl:gap-10 ">
             <h1 className="font-bold">Schools and <br /> Departments:</h1>
             <div className="flex w-full flex-wrap gap-4">
             {departments.map((dpt, index) => {
@@ -53,7 +53,7 @@ export default function Footer(){
             })}
               </div>
         </div>
-        <div className="mx-auto max-w-[90rem] text-white flex r gap-16 mt-[26px]">
+        <div className="px-6 xl:px-0 xl:mx-auto xl:max-w-[90rem] flex flex-col text-white xl:flex xl:flex-row r gap-4 xl:gap-16 mt-[26px]">
             <h1 className="font-bold">Quicklinks:</h1>
             <div className="flex w-full flex-wrap gap-4">
             {quickLinks.map((links, index) => {
@@ -70,9 +70,9 @@ export default function Footer(){
         </section>
 
         <section className="bg-dark-blue text-white py-[26px]">
-            <div className="max-w-[90rem] mx-auto">
-                <div className="flex justify-between w-full">
-                    <ul className="flex gap-6">
+            <div className="px-6 xl:px-0 xl:max-w-[90rem] xl:mx-auto">
+                <div className="xl:flex xl:flex-row  xl:justify-between flex flex-col-reverse gap-6 xl:gap-0 w-full">
+                    <ul className="flex gap-4 xl:gap-6 flex-wrap">
                         <li>Jobs</li>
                         <li>Feedback</li>
                         <li>Press and Media</li>

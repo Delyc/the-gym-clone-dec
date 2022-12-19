@@ -4,7 +4,7 @@ export default function Program(){
     const[open, setOpen] = useState(false)
     return(
         <>
-        <section className="mx-auto max-w-[90rem] mt-[68px]">
+        <section className="px-6 xl:mx-auto xl:max-w-[90rem] mt-[68px]">
 
         <div className='relative'>
         <input onClick={()=>setOpen(!open)} placeholder="Search degree program or enter keyword " className="p-[20px] relative bg-primary-gray text-[1.5rem] font-bold w-full outline-none border-b border-dark-blue" />

@@ -9,3 +9,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.grad{
+  background-image: linear-gradient(to left, rgb(37, 85, 141) 0%, #0A2D57 70%)
+}

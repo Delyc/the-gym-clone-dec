@@ -21,10 +21,10 @@ export default function Home() {
     <>
     
       <secton>
-        {/* <Navbar />
-      <HomePage /> */}
+        <Navbar />
+      <HomePage />
       <News />
-      {/* <Work />
+      <Work />
       <Program />
       <Drives />
       <Tum />
@@ -32,7 +32,7 @@ export default function Home() {
       <Alumni />
       <Podcast />
       <Support />
-      <Footer /> */}
+      <Footer />
       </secton>
     </>
   )
