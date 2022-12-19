@@ -6,7 +6,7 @@ export default function Navbar() {
     return (
         <section>
         <header className="fixed z-50 bg-dark-blue w-full">
-        <nav className="  xl:mx-auto xl:max-w-[90rem] py-5 px-6 w-full flex flex-col xl:flex xl:flex-row xl:items-center gap-5 xl:gap-0 justify-between ">
+        <nav className="  xl:mx-auto xl:max-w-[90rem] py-5 px-6 w-full flex items-center xl:flex xl:flex-row xl:items-center gap-5 xl:gap-0 justify-between ">
             <div className="flex items-center gap-4">
                 <svg className="text-white" width="33" height="33" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                     <path d="m14.5 18.717-2.5 2.88-2.5-2.88h5zM8.5 13v3h-3v-3h3zm5 0v3h-3v-3h3zm5 0v3h-3v-3h3zm-10-5v3h-3V8h3zm5 0v3h-3V8h3zm5 0v3h-3V8h3zm-10-5v3h-3V3h3zm5 0v3h-3V3h3zm5 0v3h-3V3h3z" fill="currentColor" fill-rule="nonzero"></path>
