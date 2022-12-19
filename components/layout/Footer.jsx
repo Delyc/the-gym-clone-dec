@@ -85,11 +85,11 @@ export default function Footer(){
                     </ul>
                     <div className="flex gap-6">
                         <Image src={fb} alt="facebook" width={20} height={20}/>
-                        <Image src={youtube} alt="facebook" width={20} height={20}/>
-                        <Image src={twitter} alt="facebook" width={20} height={20}/>
-                        <Image src={insta} alt="facebook" width={20} height={20}/>
-                        <Image src={linkedin} alt="facebook" width={20} height={20}/>
-                        <Image src={wifi} alt="facebook" width={20} height={20}/>
+                        <Image src={youtube} alt="youtube" width={20} height={20}/>
+                        <Image src={twitter} alt="twitter" width={20} height={20}/>
+                        <Image src={insta} alt="instagram" width={20} height={20}/>
+                        <Image src={linkedin} alt="linkedin" width={20} height={20}/>
+                        <Image src={wifi} alt="wifi" width={20} height={20}/>
 
                     </div>
                 </div>
