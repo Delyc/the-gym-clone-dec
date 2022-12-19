@@ -7,7 +7,7 @@ export default function Podcast(){
             {podcast.map((elt, index) => {
                 console.log("elt", elt.id)
                 return(
-                    <PodcastCard key={index} styles={`${elt.id === 1 && " col-span-1 xl:w-[53.8rem] xl:col-span-2 w-full"}`} image = {elt.image} description={elt.description} smallHeading={elt.smallHeading}  buttonText={elt.buttonText}/>
+                    <PodcastCard key={index} styles={`${elt.id === 1 && " col-span-1 xl:w-[56.5rem] xl:col-span-2 w-full"}`} image = {elt.image} description={elt.description} smallHeading={elt.smallHeading}  buttonText={elt.buttonText}/>
                 )
             })}
         </section>

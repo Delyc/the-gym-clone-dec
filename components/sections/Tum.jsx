@@ -4,7 +4,7 @@ export default function Tum(){
         <section className="xl:mx-auto xl:max-w-[90rem] mt-[96px] px-6">
             <h1 className="text-2.5xl text-dark-blue font-bold">TUM in numbers</h1>
             <div className="grid grid-cols-1 xl:grid-cols-5 gap-[24px] mt-[48px]">
-                <div className="xl:col-span-3 py-2 xl:py-0 w-[17rem] xl:w-auto xl:row-span-2 bg-primary-blue xl:px-[40px] flex flex-col items-center ">
+                <div className="xl:col-span-3 py-2 xl:py-0 w-[17rem] xl:w-auto xl:row-span-2 bg-primary-blue xl:px-[40px] flex flex-col items-center xl:items-start">
                     <h1 className="text-[60px] xl:text-[130px] text-white font-bold">50, 000</h1>
                     <p className="text-white font-bold xl:text-[34px] text-[20px]">Students</p>
                 </div>

@@ -19,8 +19,8 @@ export default function Navbar() {
                 <span className="text-white hidden md:block text-xs leading-[1.1666666667] font-normal">Technical <br /> University <br /> of Munich</span>
             </div>
 <div className="flex gap-20 justify-bentween">
-            <ul className="hidden md:block xl:flex xl:flex-row text-sm font-bold text-white font-bold uppercase gap-5">
-                <li>news and events</li>
+            <ul className="hidden md:block xl:flex xl:flex-row text-sm font-bold text-white font-bold uppercase gap-5 h-full">
+                <li className="hover:border-b hover:py-5">news and events</li>
                 <li>studies</li>
                 <li>lifelong learning</li>
                 <li>research</li>
